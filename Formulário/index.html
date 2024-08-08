@@ -8,23 +8,60 @@
 <body>
     <form action="">
         <div>
-            <label for="">nome</label>
-            <input type="text" id="nome" placeholder="nome">
+            <label for="nome">nome:</label>
+            <input type="text" id="nome" placeholder="digite seu nome" required>
         </div>
         <div>
-            <label for="">idade</label>
-            <input type="number" id="idade" placeholder="idade">
+            <label for="idade">idade:</label>
+            <input type="number" id="idade" placeholder="digite sua idade" required>
         </div>
         <div>
-            <label for="">email</label>
-            <input type="email" id="email" placeholder="email">
+            <label for="email">email:</label>
+            <input type="email" id="email" placeholder="digite seu email" required>
         </div>
         <div>
-            <label for="">senha</label>
-            <input type="password" id="senha" placeholder="senha">
+            <label for="senha">senha:</label>
+            <input type="password" id="senha" placeholder="digite sua senha" required>
         </div>
 
-        
+            <label for="pergunta1">voce gosta de estudar?</label>
+            <div>
+                <label for="sim">sim</label>
+                <input type="radio" id="sim" name="resposta" required>
+            </div>
+            <div>
+                <label for="nao">nao</label>
+                <input type="radio" id="nao" name="resposta" required>
+            </div>
+            <div>
+                <label for="pouco">pouco</label>
+                <input type="radio" id="pouco" name="resposta" required>
+            </div>
+
+            <label for="pergunta2">voce conhece as linguas de programacao?</label>
+            <div>
+                <label for="html">html</label>
+                <input type="checkbox" id="html">
+            </div>
+           <div>
+            <label for="css">css</label>
+            <input type="checkbox" id="css">
+           </div>
+            <div>
+                <label for="js">js</label>
+                <input type="checkbox" id="js">
+            </div>
+            <div>
+                <label for="python">python</label>
+                <input type="checkbox" id="python">
+            </div>
+            <div>
+                <label for="java">java</label>
+                <input type="checkbox" id="java">
+            </div>
+            <div>
+                <button type="submit">enviar</button>
+            </div>
     </form>
 </body>
 </html>
